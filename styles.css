@@ -65,10 +65,10 @@ a {
   display: grid;
   place-items: center;
   border-radius: 14px;
-  background: linear-gradient(135deg, var(--green), var(--purple));
-  color: #07100d;
-  font-weight: 900;
+  background: #000;
+  border: 1px solid rgba(255, 255, 255, 0.16);
   box-shadow: 0 0 28px rgba(54, 226, 160, 0.25);
+  object-fit: cover;
 }
 
 .nav-links {
@@ -330,6 +330,17 @@ section {
   border: 1px solid rgba(255, 99, 125, 0.36);
   background: rgba(255, 99, 125, 0.08);
   border-radius: 18px;
+}
+
+.developer-card {
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.developer-card p {
+  margin: 6px 0;
 }
 
 .site-footer {
