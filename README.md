@@ -25,7 +25,8 @@ crypto-unlock-tracker-site
 
 6. After deployment, add your custom domain in the Pages project settings.
    Recommended domain: `cryptounlockcalendar.vortixvpn.com`
-7. When the Play Store listing is live, replace `#download` in `index.html` with the real Google Play URL.
+7. Play Store listing:
+   `https://play.google.com/store/apps/details?id=com.tradingradar.app`
 
 ## Pages Included
 
