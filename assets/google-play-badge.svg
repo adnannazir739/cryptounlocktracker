@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="646" height="192" viewBox="0 0 646 192" role="img" aria-labelledby="title desc">
+  <title id="title">Get it on Google Play</title>
+  <desc id="desc">Download Crypto Unlock Tracker on Google Play</desc>
+  <rect x="4" y="4" width="638" height="184" rx="28" fill="#050505" stroke="#a7a7a7" stroke-width="8"/>
+  <path d="M78 52c0-10 11-16 20-11l61 35-24 24-37 37c-9 5-20-1-20-11V52Z" fill="#34a853"/>
+  <path d="M159 76l28 16c11 6 11 22 0 28l-28 16-24-36 24-24Z" fill="#fbbc04"/>
+  <path d="M98 41l61 35-24 24-37-59Z" fill="#4285f4"/>
+  <path d="M98 159l61-35-24-24-37 59Z" fill="#ea4335"/>
+  <text x="226" y="72" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" letter-spacing="2">GET IT ON</text>
+  <text x="226" y="136" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">Google Play</text>
+</svg>

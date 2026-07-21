@@ -166,6 +166,26 @@ h3 {
   background: rgba(255, 255, 255, 0.04);
 }
 
+.store-badge {
+  display: inline-flex;
+  align-items: center;
+  width: min(260px, 100%);
+  border-radius: 18px;
+  text-decoration: none;
+  transition: transform 0.18s ease, filter 0.18s ease;
+}
+
+.store-badge:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 12px 28px rgba(54, 226, 160, 0.22));
+}
+
+.store-badge img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .hero-card {
   padding: 22px;
   border: 1px solid var(--border);
@@ -311,6 +331,35 @@ section {
   margin-right: 8px;
 }
 
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.article-tile {
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.article-tile h2 {
+  font-size: 22px;
+}
+
+.article-tile a,
+.text-link {
+  color: var(--green);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.article-page .notice {
+  margin: 22px 0;
+}
+
 .legal-page {
   max-width: 900px;
   padding: 54px 20px 80px;
@@ -371,6 +420,10 @@ section {
   }
 
   .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .article-grid {
     grid-template-columns: 1fr;
   }
 
